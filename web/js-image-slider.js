@@ -1,8 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 var sliderOptions =
         {
             sliderId: "slider",
@@ -22,7 +17,6 @@ var sliderOptions =
 
 var imageSlider = new mcImgSlider(sliderOptions);
 
-/* Menucool Javascript Image Slider v2016.4.2. Copyright www.menucool.com */
 function mcImgSlider(i) {
     for (var I = function (a) {
         return document.getElementById(a)
@@ -852,4 +846,3 @@ function mcImgSlider(i) {
             return I(i.sliderId)
         }}
 }
-

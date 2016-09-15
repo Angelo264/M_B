@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>TRANSACTIONS</title>
+    </head>
+    <body>
+         <h1 align='center' style="color:red">TransACTIONS</h1>
+        <div></div>
+        <form method="post" action="Transaction.jsp" >
+        <center>
+            <h2 style="color:green">Transfer's </h2>
+        </center>
+        <table  align="center" >
+            <tr>
+                <td>Sender's Account:</td> <td><input type="text" name="Sacc" required="required" onchange="CreateAccNum()"/></td>
+            </tr>
+            <tr>
+                <td>Receiver's Account</td> <td><input type="text" name="Racc"  /></td>
+            </tr>
+            <tr>
+                <td>Amount</td> <td><input type="text" name="Amount"/></td>
+            </tr>
+            <br>
+            
+          <div id="button">
+                    <input type="Submit" id ='REG' name="Register">
+                   
+                </div>
+    </body>
+</html>
